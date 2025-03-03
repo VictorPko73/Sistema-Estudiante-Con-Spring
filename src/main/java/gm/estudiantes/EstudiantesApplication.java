@@ -136,6 +136,7 @@ public class EstudiantesApplication implements CommandLineRunner {
 					logger.info("Estudiante no encontrado con Id: " + idEstudiante);
 			}
 			case 5 -> {
+
 				logger.info("Eliminar Estudiante:" + nl);
 				logger.info("Introduzca el Id del estudiante a Eliminar");
 				var idEstudiante = Integer.parseInt(entrada.nextLine());
