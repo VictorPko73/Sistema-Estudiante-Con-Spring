@@ -34,15 +34,15 @@ public class Estudiante {
     private String apellido;
     private String telefono;
     private String email;
-    @Override
-    public String toString() {
-        return "Estudiante{id=" + idEstudiante +
-                ", nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", telefono='" + telefono + '\'' +
-                ", email='" + email + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Estudiante{id=" + idEstudiante +
+//                ", nombre='" + nombre + '\'' +
+//                ", apellido='" + apellido + '\'' +
+//                ", telefono='" + telefono + '\'' +
+//                ", email='" + email + '\'' +
+//                '}';
+//    }
 
 
 }
